@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Js</title>
+</head>
+<body>
+
+    <div id="root"></div>
+       
+    
+
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+<!--     //! with js        -->
+<!-- <script>
+    const heading = document.createElement("h1");
+    heading.innerHTML = "Namaste everyone from AS";
+    const root = document.getElementById("root");
+    root.appendChild(heading);
+    
+</script> -->
+
+
+
+<!--      //!with react js      -->
+
+<script>
+
+const heading1  =  React.createElement("h1" , { id: "title"} , "Heading 1");
+
+
+const heading2  =  React.createElement("h2" , { id: "title"} , "Heading 2");
+
+
+const container = React.createElement("div" , {id:"container"} , [heading1 , heading2]);
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(container)
+
+// const head = React.createElement("h1" , {}, "This is header" );
+// const header = ReactDOM.createRoot(document.getElementById("header"));
+
+// const foot = React.createElement("h2" , {} ,"this is footer");
+// const footer = ReactDOM.createRoot(document.getElementById("footer"));
+
+// console.log(heading) -->object
+
+// !  passing a react element inside the root
+// header.render(head);
+// root.render(heading);
+// footer.render(foot);
+
+</script>
+
+</body>
+
+</html>
