@@ -12,7 +12,7 @@ npx means execute using npm
 
 
 //Parcel do these things
-// HMR --> (Hot Module Reloading) parcel will keep  a track of all files which we are changes do in our file
+// HMR --> (Hot Module Replacement) parcel will keep  a track of all files which we are changes do in our file
 //File Watcher Algorithm -- C++
 //BUILDING
 //MINIFY
@@ -35,6 +35,9 @@ Why REACT is fast??(needs a lot of things )(bundler acts as a catalyst)()
 
 //Transitive dependencies (parcel uses like (one depends on others) )
 //**we have our pakage manager which handles and takes care of our transitive dependencies of our code..**/
+
+//browserList with countryName
+
 
 
 
