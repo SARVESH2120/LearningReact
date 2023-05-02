@@ -1,0 +1,33 @@
+npm init
+npm install -D parcel
+npm install react
+npm install react-dom
+npx parcel index.html //give the entry point to run the application
+npx parcel build index.html
+
+
+npx means execute using npm
+
+
+
+// HMR --> (Hot Module Reloading) parcel will keep  a track of all files which we are changes do in our file
+//File Watcher Algorithm -- C++
+//
+
+
+
+
+package.json vs package-lock.json
+package-lock.json --> tells a exact version of the libraries
+package.json -->in this dev dependencies it will automatic upgrade a package use of package
+
+dependencies vs devDevepndencies
+devDevepndencies --> install locally 
+Devepndencies --> install globally
+
+sha integretiy in parcel shows the intergrity because it contains hash.
+hash ensure what exactly version of parcel running in my systemis exactly the same at the production or not.
+
+
+
+
