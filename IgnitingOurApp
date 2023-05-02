@@ -4,15 +4,37 @@ npm install react
 npm install react-dom
 npx parcel index.html //give the entry point to run the application
 npx parcel build index.html
+npx parcel build index.html --https(not execute)
 
 
 npx means execute using npm
 
 
 
+//Parcel do these things
 // HMR --> (Hot Module Reloading) parcel will keep  a track of all files which we are changes do in our file
 //File Watcher Algorithm -- C++
+//BUILDING
+//MINIFY
+//Cleaning our Code
+//Dev and Production Build
+//Super Fast Algorithm
+//Image Optimization
+//Caching while development
+//Compression
+//Compatible with older version of browser(It adds polyfills)
+//HTTPS on dev
+//port number
+//Consistent Hashing Algorithm
+//Zero Config
 //
+
+Why REACT is fast??(needs a lot of things )(bundler acts as a catalyst)()
+
+//we should push .parcel-cache in our git ignore 
+
+//Transitive dependencies (parcel uses like (one depends on others) )
+//**we have our pakage manager which handles and takes care of our transitive dependencies of our code..**/
 
 
 
