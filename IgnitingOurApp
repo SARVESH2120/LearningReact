@@ -27,7 +27,7 @@ npx means execute using npm
 //port number
 //Consistent Hashing Algorithm
 //Zero Config
-//
+//Tree Shaking --remove unwanted code
 
 Why REACT is fast??(needs a lot of things )(bundler acts as a catalyst)()
 
