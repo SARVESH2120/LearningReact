@@ -11,7 +11,7 @@ npx means execute using npm
 
 
 
-//Parcel do these things
+//Parcel do these things(why our application is faster)
 // HMR --> (Hot Module Replacement) parcel will keep  a track of all files which we are changes do in our file
 //File Watcher Algorithm -- C++
 //BUILDING
