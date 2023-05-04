@@ -1,0 +1,11 @@
+//passing a inline css
+const styleObj ={
+    backgroundColor: "red",
+}
+
+const jsx =(
+    <div style={styleObj}>
+    <h1>Jsx</h1>
+    <h2>second jsx</h2>
+    </div>
+)
