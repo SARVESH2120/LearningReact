@@ -1,0 +1,22 @@
+polyfill -->conversion of code in older code version so that browser can understand
+babel do this conversion (new code to older code) automatically
+
+npm install babel-plugin-transform-remove-console --save-dev
+
+define key to get rid of key not defined error to each element
+
+re render --> react will change the whole dom tree
+to avoid re render in react --> provides a key 
+
+diffing algorithm--> react reconcilation key
+
+className
+
+AST (abstract syntax tree)??
+
+react element is a normal variable declare in js.
+
+dealing with functional component using angular braces<>;;
+
+
+
