@@ -9,3 +9,8 @@ const jsx =(
     <h2>second jsx</h2>
     </div>
 )
+
+
+virtual dom is a representation of an actual dom
+
+reconciliation uses an diff algorithm --> it founds the diff betweeen the trees  and it re renders only specific portion of our app
