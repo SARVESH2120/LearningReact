@@ -54,5 +54,7 @@ sha integretiy in parcel shows the intergrity because it contains hash.
 hash ensure what exactly version of parcel running in my systemis exactly the same at the production or not.
 
 
+module can only import and export we can import export our script file
+
 
 
