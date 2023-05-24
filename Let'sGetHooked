@@ -1,0 +1,51 @@
+//Named export
+
+export const  Title = () =>{
+};
+
+
+//default export
+
+const Header =() =>{
+};
+export default Header;
+
+import * as XYZ "./components/Header";
+
+react usess one way data binding
+
+
+to use a local variable we need to use those state variables that state variable are created using hooks 
+const [searchText] = useState(); //to create state varivale
+//SearchText is a loccal state variable
+this function i.e useState returns an array and the first vsriable of this array i.e serachText is variable name
+
+//what is state??
+
+//what is hooks??
+Hooks is just a function
+//what is useState??
+
+
+//why do we need state variable??
+suppose we have a local variable let a=10;
+and some function change it to 11;
+react will not know i have to update that variable (whereevr that variable is to be called);
+so for this i have to create a state variable and all the state varible we have to create react will keep track on them...
+
+
+
+
+
+
+
+if(searchClicked === "true"){
+                    setSearchClicked("false");
+                }else{
+                    setSearchClicked("true");
+                }
+                
+                
+                
+                
+                
