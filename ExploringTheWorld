@@ -1,0 +1,18 @@
+*******config Driven UI*******
+import {useState} from "react";
+const [title, setTitle] = useState("hello");//in bracket give the default value..
+<button onClick={()=> setTitle("new food")}>changes</button>
+
+
+why react is fast??
+virtual dom,  reconcillation, diff algorithm, faster dom manupulation(because itt use diff alforithm)
+
+********microservices***************
+monolitic architecture
+microservices arch..(benefits)(easier to test )(easy to maintain)(everyteam has owm project)(sepration of concern)
+
+*******foood villa is one UI microservicers**********
+
+all these microservices are connected are deployed by different ports but same domain name
+
+
